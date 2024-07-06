@@ -1,7 +1,7 @@
-## Redis Best Examples
+# Redis Best Examples
 
+## Install project (for test)
 <div>
-    # Install project
     <p>Clone project</p>
     <pre>git clone https://github.com/Hanna-hanna/redis-best-examples.git</pre>
     <pre>cd redis-best-examples</pre>
@@ -21,5 +21,20 @@
     <pre>php artisan key:generate</pre>
     <p>Start project from your server or use local</p>
     <pre>php artisan serve</pre>
-    
+</div>
+
+## Install Redis from scratch
+<div>
+    <p>Install Redis from Homebrew</p>
+    <pre>brew install redis</pre>
+    <p>Start Redis</p>
+    <pre>brew services start redis</pre>
+    <pre>composer require predis/predis:^2.0</pre>
+</div>
+
+## Redis documentation
+<div>
+    <pre>https://redis.io/docs/latest/commands</pre>
+    <p>Redis CLI</p>
+    <pre>redis-cli</pre>
 </div>

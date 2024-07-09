@@ -16,6 +16,7 @@
         </style>
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-       <h1>Hello! You are visitor #{{ $visits }}</h1>
+       {{-- <h1>Hello! You are visitor #{{ $visits }}</h1> --}}
+       <p>This video has been downloaded {{ $downloads ?? 'no' }} times.</p>
     </body>
 </html>

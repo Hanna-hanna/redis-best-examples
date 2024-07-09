@@ -38,3 +38,9 @@
     <p>Redis CLI</p>
     <pre>redis-cli</pre>
 </div>
+
+## Interesting moments
+<div>
+    <p>Can't access the values from Redis CLI? You should use prefix laravel_database_</p>
+    <pre>GET laravel_database_visits</pre>
+</div>
